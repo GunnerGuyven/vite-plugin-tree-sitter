@@ -78,8 +78,8 @@ export default function (
 
 	const wasmServeList = new Map()
 	wasmServeList.set(
-		"/tree-sitter.wasm",
-		fsPathJoin("node_modules", "web-tree-sitter", "tree-sitter.wasm"),
+		"/web-tree-sitter.wasm",
+		fsPathJoin("node_modules", "web-tree-sitter", "web-tree-sitter.wasm"),
 	)
 
 	let runMode: "DEV" | "PROD" | null = null
